@@ -1,7 +1,13 @@
-main
+header
 {
-	witdh: 100px;
+	witdh: 100%;
 	background-color:green;
 	color;white;
 }
-	
+
+main
+{
+	witdh: 100px;
+	background-color:grey;
+	color;white;
+}
