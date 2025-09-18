@@ -3,11 +3,22 @@ header
 	witdh: 100%;
 	background-color:green;
 	color;white;
+	text-align:center;
 }
 
 main
 {
 	witdh: 100px;
+	height:500px;
 	background-color:grey;
 	color;white;
+	text-align:center;
+}
+
+footer
+{
+	witdh: 100%;
+	background-color:green;
+	color;white;
+	text-align:center;
 }
