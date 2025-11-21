@@ -43,3 +43,13 @@ button:hover
 {
     background-color: lightblue;
 }
+
+.halloween
+{
+	background-color: rgb(255, 154, 38);
+}
+
+.halloween:hover
+{
+	background-color: rgb(185, 121, 0);
+}
