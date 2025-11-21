@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween</title>
+    <link rel="stylesheet" href="halloween.css">
+	<meta name="description" content="Halloween" />
+	<meta name="author" content="Antoni Felka" />
+	<meta name="robots" content="all" />
+</head>
+<body>
+    <h1>Halloween Nadchodzi!</h1>
+    <h2>Do Halloween pozostało:</h2>
+    <div class="countdown" id="countdown">Ładowanie...</div>
+    <script>
+        function updateCountdown() {
+            const halloween = new Date('October 31, 2025 00:00:00').getTime();
+            const now = new Date().getTime();
+            const diff = halloween - now;
+
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+            document.getElementById('countdown').innerHTML = `${days} dni ${hours}h ${minutes}m ${seconds}s`;
+        }
+        setInterval(updateCountdown, 1000);
+    </script>
+</body>
+</html>
