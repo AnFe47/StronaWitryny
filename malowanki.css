@@ -1,0 +1,50 @@
+body{
+    font-family: Arial;
+    margin:0;
+}
+
+.header{
+    background:red;
+    color:white;
+    text-align:center;
+    font-size:36px;
+    padding:20px;
+    font-weight:bold;
+}
+
+.container{
+    display:flex;
+    height: 90vh;
+}
+
+.menu{
+    background:orange;
+    width:200px;
+    padding:20px;
+    color:yellow;
+    font-size:20px;
+}
+
+.menu ul{
+    list-style-type: disc;
+}
+
+.content{
+    flex:1;
+    background:#e6d8a8;
+    text-align:center;
+    padding:40px;
+}
+
+.content img{
+    margin:20px;
+    height: 50vh;
+    width: 50vh;
+}
+
+.footer{
+    background:#c9b7e6;
+    text-align:right;
+    padding:10px;
+    color:red;
+}
