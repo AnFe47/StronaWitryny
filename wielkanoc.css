@@ -1,0 +1,40 @@
+body{
+    font-family: Georgia, serif, sans-serif;
+    background: #fff4e3;
+    text-align: center;
+    padding: 40px 20px;
+    color: #271f1b;
+}
+
+h1{
+    font-size: 3.5rem; color: #7a5c8a; margin-bottom: 10px;
+}
+  
+.opis{
+    font-size: 1.3rem; color: #7a6a60;
+    max-width: 500px; margin: 0 auto 50px;
+    line-height: 1.8;
+}
+
+.galeria{
+    display: flex; flex-wrap: wrap;
+    justify-content: center; gap: 28px;
+}
+
+.karta{
+    background: white; border-radius: 16px;
+    padding: 20px; box-shadow: 0 4px 16px rgba(0,0,0,.09);
+    width: 300px;
+}
+
+.karta img{
+    width: 300px; height: 300px; object-fit: contain;
+}
+
+.karta p{
+    margin-top: 10px; font-size: .95rem; color: #7a5c8a; font-weight: bold;
+}
+
+footer{
+    margin-top: 60px; font-style: italic; color: #aaa; font-size: 1rem;
+}
