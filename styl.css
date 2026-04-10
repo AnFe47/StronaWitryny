@@ -53,3 +53,13 @@ button:hover
 {
 	background-color: rgb(185, 121, 0);
 }
+
+.wielkanoc
+{
+	background-color: rgb(173, 255, 162);
+}
+
+.wielkanoc:hover
+{
+	background-color: rgb(117, 212, 105);
+}
